@@ -107,9 +107,6 @@ print:
   jsr CHROUT
   rts
 
-
-
-
 print_hex:
   pha           ; push original A to stack
   lsr
