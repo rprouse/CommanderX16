@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "x16: Launch Cmdr x16 in the Current Directory",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "x16emu.exe",
+      "args": [ "-scale", "2" ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "x16: Launch Cmdr x16 in Debug mode in the Current Directory",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "x16emu.exe",
+      "args": [ "-scale", "2", "-debug" ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "integratedTerminal"
+    }
+  ]
+}
